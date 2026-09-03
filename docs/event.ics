@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Preventing the Next Incident//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:preventing-next-incident-20260922@jp9dr.github.io
+DTSTAMP:20260903T120000Z
+DTSTART:20260922T173000Z
+DTEND:20260922T203500Z
+SUMMARY:Preventing the Next Incident — Process Safety in Practice
+DESCRIPTION:Online mini-seminar via Microsoft Teams. The meeting link will be announced by the organizing team.
+LOCATION:Microsoft Teams (link to be announced)
+URL:https://jp9dr.github.io/preventing-next-incident/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
