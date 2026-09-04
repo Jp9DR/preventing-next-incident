@@ -88,7 +88,7 @@ const asset = name => `assets/${name}`;
 const agendaTime = time => time;
 const cards = entries => entries.map(([title,text], i) => `<article class="detail-card"><span class="number">0${i + 1}</span><h3>${title}</h3><p>${text}</p></article>`).join('');
 const people = entries => entries.map(([image,name,bio]) => `<article class="host-card"><img class="host-photo" src="${asset(image)}" alt="${name}"><div><h3>${name}</h3><p>${bio}</p></div></article>`).join('');
-const speakers = (entries,t) => entries.map(([image,name,bio,topic]) => `<article class="speaker-card"><img class="speaker-photo" src="${asset(image)}" alt="${name}"><div><h3>${name}</h3><p class="bio-label">${locale === 'fr' ? 'Biographie' : 'Biography'}</p><p>${bio}</p><div class="topic"><p class="topic-label">${t.topic}</p><strong>${topic}</strong></div></div></article>`).join('');
+const speakers = (entries,t) => entries.map(([image,name,bio,topic]) => `<article class="speaker-card"><img class="speaker-photo" src="${asset(image)}" alt="${name}"><div><h3>${name}</h3><p class="bio-label">${locale === 'fr' ? 'Profil' : 'Bio'}</p><p>${bio}</p><div class="topic"><p class="topic-label">${t.topic}</p><strong>${topic}</strong></div></div></article>`).join('');
 function render() {
   const t = copy[locale]; document.documentElement.lang = locale; document.title = `${t.title} | ${t.subtitle}`;
   document.querySelectorAll('[data-nav]').forEach((node,index) => node.textContent = t.nav[index]);
