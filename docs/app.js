@@ -14,7 +14,7 @@ const copy = {
 };
 
 Object.assign(copy.en, {
-  date: 'September 23, 2026 · 1:30 p.m. ET',
+  date: 'Tuesday, September 22, 2026 · 1:30 p.m. ET',
   joinText: 'Bring your questions and perspectives to a practical conversation.',
   teamsNote: 'Meeting link to be announced',
   contactPrompt: 'Questions? Send us an email',
@@ -55,7 +55,7 @@ Object.assign(copy.en, {
 });
 
 Object.assign(copy.fr, {
-  date: '23 septembre 2026 · 13 h 30 HE',
+  date: 'Mardi 22 septembre 2026 · 13 h 30 HE',
   joinText: 'Apportez vos questions et vos perspectives à une conversation concrète.',
   teamsNote: 'Lien de réunion à venir',
   contactPrompt: 'Des questions? Écrivez-nous',
