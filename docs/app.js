@@ -15,8 +15,10 @@ const copy = {
 
 Object.assign(copy.en, {
   date: 'Tuesday, September 22, 2026 · 1:30 p.m. ET',
+  detailsNote: 'An afternoon of focused, practical content and meaningful conversation.',
+  details: [['Focused talks', 'Five expert sessions with space for questions and discussion.'], ['Real-world perspective', 'From early-career practice to functional safety and regional case studies.'], ['Accessible online', 'Join from anywhere through Microsoft Teams.']],
   joinText: 'Bring your questions and perspectives to a practical conversation.',
-  teamsNote: 'Meeting link to be announced',
+  teamsNote: 'Join the meeting',
   contactPrompt: 'Questions? Send us an email',
   contactEmail: 'Carolina.Ardila.Suarez@USherbrooke.ca',
   people: 'Featuring leading voices in process safety',
@@ -36,11 +38,12 @@ Object.assign(copy.en, {
   schedule: [
     ['1:30–1:40 p.m.', 'Welcome and opening remarks', 'Gustavo Ramírez & Carolina Ardila Suárez'],
     ['1:40–2:10 p.m.', 'Preventing process incidents: the role of functional safety', 'Davide Arnoldi · 20 min presentation + 10 min questions'],
-    ['2:15–2:45 p.m.', 'Operational safety management in critical-mineral operations', 'Prof. Jean-Paul Lacoursière · 20 min presentation + 10 min questions'],
-    ['2:45–2:50 p.m.', 'Break', 'Short pause', 'break'],
-    ['2:50–3:20 p.m.', 'Case studies in Latin America', 'David E. Herrick · 20 min presentation + 10 min questions'],
-    ['3:25–3:55 p.m.', 'To be defined', 'Mike Munsil · 20 min presentation + 10 min questions'],
-    ['3:55–4:00 p.m.', 'Closing remarks', 'Organizing team']
+    ['2:10–2:40 p.m.', 'Operational safety management in critical-mineral operations', 'Prof. Jean-Paul Lacoursière · 20 min presentation + 10 min questions'],
+    ['2:40–2:50 p.m.', 'Break', 'Short pause', 'break'],
+    ['2:50–3:20 p.m.', 'To be defined', 'Mike Munsil · 20 min presentation + 10 min questions'],
+    ['3:20–3:50 p.m.', 'Case studies in Latin America', 'David E. Herrick · 20 min presentation + 10 min questions'],
+    ['3:50–4:20 p.m.', 'What does process safety look like in your first years on the job?', 'Louisa A. Nara · 20 min presentation + 10 min questions'],
+    ['4:20–4:25 p.m.', 'Closing remarks', 'Organizing team']
   ],
   hosts: [
     ['gustavo-ramirez.png', 'Gustavo Emilio Ramírez Caballero, Ph.D.', 'Head of the Department of Chemical Engineering at Universidad Industrial de Santander in Bucaramanga, Colombia. His work connects bio-based polymers, gas capture, and process safety.'],
@@ -49,18 +52,22 @@ Object.assign(copy.en, {
   speakers: [
     ['davide-arnoldi.png', 'Davide Arnoldi', 'Principal Safety Consultant at HIMA with more than 20 years of experience in the process and energy industries. His work includes functional safety and safety-instrumented systems.', 'Preventing process incidents: the role of functional safety'],
     ['jean-paul-lacoursiere.png', 'Prof. Jean-Paul Lacoursière', 'Associate Professor at Polytechnique Montréal with 45 years of experience in petrochemicals and major-risk management.', 'Operational safety management in critical-mineral operations'],
+    ['mike-munsil.png', 'Mike Munsil', 'Senior Project Manager (HSE) and Director for Latin America at PSRG. He brings more than 30 years of experience in training, process safety, and risk management.', 'To be defined'],
     ['david-herrick.png', 'David E. Herrick, Ph.D.', 'A chemical engineer and CCPS staff consultant based in Bogotá, with more than 25 years of industry experience in process-safety management.', 'Case studies in Latin America'],
-    ['mike-munsil.png', 'Mike Munsil', 'Senior Project Manager (HSE) and Director for Latin America at PSRG. He brings more than 30 years of experience in training, process safety, and risk management.', 'To be defined']
+    ['louisa-nara.png', 'Louisa A. Nara', 'Global process-safety leader with more than 40 years in engineering, risk management, and crisis response. Former Global Technical Director of AIChE’s CCPS (2010–2023).', 'What does process safety look like in your first years on the job?']
   ]
 });
 
 Object.assign(copy.fr, {
   date: 'Mardi 22 septembre 2026 · 13 h 30 HE',
+  detailsNote: 'Un après-midi structuré autour de contenus courts, concrets et propices aux échanges.',
+  details: [['Présentations ciblées', 'Cinq présentations d’experts avec une période de questions et de discussion.'], ['Perspective terrain', 'De la pratique en début de carrière à la sécurité fonctionnelle et aux études de cas régionales.'], ['Accessible en ligne', 'Participez de partout grâce à Microsoft Teams.']],
   joinText: 'Apportez vos questions et vos perspectives à une conversation concrète.',
-  teamsNote: 'Lien de réunion à venir',
+  teamsNote: 'Rejoindre la réunion',
   contactPrompt: 'Des questions? Écrivez-nous',
   contactEmail: 'Carolina.Ardila.Suarez@USherbrooke.ca',
-  people: 'Avec quatre spécialistes de la sécurité des procédés',
+  people: 'Avec des voix de premier plan en sécurité des procédés',
+  hostsTitle: 'Entamer la discussion',
   committeeEyebrow: 'Comité organisateur',
   profileLabel: 'Voir le profil',
   committee: [
@@ -77,11 +84,12 @@ Object.assign(copy.fr, {
   schedule: [
     ['13 h 30–13 h 40', 'Accueil et mots d’ouverture', 'Gustavo Ramírez et Carolina Ardila Suárez'],
     ['13 h 40–14 h 10', 'Prévenir les incidents de procédé : le rôle de la sécurité fonctionnelle', 'Davide Arnoldi · 20 min de présentation + 10 min de questions'],
-    ['14 h 15–14 h 45', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques', 'Prof. Jean-Paul Lacoursière · 20 min de présentation + 10 min de questions'],
-    ['14 h 45–14 h 50', 'Pause', 'Courte pause', 'break'],
-    ['14 h 50–15 h 20', 'Études de cas en Amérique latine', 'David E. Herrick · 20 min de présentation + 10 min de questions'],
-    ['15 h 25–15 h 55', 'À déterminer', 'Mike Munsil · 20 min de présentation + 10 min de questions'],
-    ['15 h 55–16 h 00', 'Mot de clôture', 'Équipe organisatrice']
+    ['14 h 10–14 h 40', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques', 'Prof. Jean-Paul Lacoursière · 20 min de présentation + 10 min de questions'],
+    ['14 h 40–14 h 50', 'Pause', 'Courte pause', 'break'],
+    ['14 h 50–15 h 20', 'À déterminer', 'Mike Munsil · 20 min de présentation + 10 min de questions'],
+    ['15 h 20–15 h 50', 'Études de cas en Amérique latine', 'David E. Herrick · 20 min de présentation + 10 min de questions'],
+    ['15 h 50–16 h 20', 'À quoi ressemble la sécurité des procédés au début d’une carrière d’ingénieur?', 'Louisa A. Nara · 20 min de présentation + 10 min de questions'],
+    ['16 h 20–16 h 25', 'Mot de clôture', 'Équipe organisatrice']
   ],
   hosts: [
     ['gustavo-ramirez.png', 'Gustavo Emilio Ramírez Caballero, Ph. D.', 'Directeur de l’École de génie chimique de la Universidad Industrial de Santander, à Bucaramanga. Ses travaux relient polymères biosourcés, capture de gaz et sécurité des procédés.'],
@@ -90,8 +98,9 @@ Object.assign(copy.fr, {
   speakers: [
     ['davide-arnoldi.png', 'Davide Arnoldi', 'Consultant principal chez HIMA, avec plus de 20 ans d’expérience dans les industries des procédés et de l’énergie. Il accompagne des clients en sécurité fonctionnelle et systèmes instrumentés de sécurité.', 'Prévenir les incidents de procédé : le rôle de la sécurité fonctionnelle'],
     ['jean-paul-lacoursiere.png', 'Prof. Jean-Paul Lacoursière', 'Professeur associé à Polytechnique Montréal, avec 45 ans d’expérience en pétrochimie et gestion des risques majeurs.', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques'],
+    ['mike-munsil.png', 'Mike Munsil', 'Directeur pour l’Amérique latine et gestionnaire principal de projets HSE chez PSRG. Il possède plus de 30 ans d’expérience en formation, sécurité des procédés et gestion des risques.', 'À déterminer'],
     ['david-herrick.png', 'David E. Herrick, Ph. D.', 'Ingénieur chimiste et consultant du CCPS basé à Bogotá, avec plus de 25 ans d’expérience en gestion de la sécurité des procédés.', 'Études de cas en Amérique latine'],
-    ['mike-munsil.png', 'Mike Munsil', 'Directeur pour l’Amérique latine et gestionnaire principal de projets HSE chez PSRG. Il possède plus de 30 ans d’expérience en formation, sécurité des procédés et gestion des risques.', 'À déterminer']
+    ['louisa-nara.png', 'Louisa A. Nara', 'Leader mondiale en sécurité des procédés, avec plus de 40 ans d’expérience en génie, gestion des risques et intervention de crise. Ancienne directrice technique mondiale du CCPS de l’AIChE (2010–2023).', 'À quoi ressemble la sécurité des procédés au début d’une carrière d’ingénieur?']
   ]
 });
 
@@ -106,7 +115,7 @@ function render() {
   const t = copy[locale]; document.documentElement.lang = locale; document.title = `${t.title} | ${t.subtitle}`;
   document.querySelectorAll('[data-nav]').forEach((node,index) => node.textContent = t.nav[index]);
   document.querySelector('.skip-link').textContent = locale === 'fr' ? 'Aller au contenu' : 'Skip to content';
-  document.querySelector('.hero').innerHTML = `<div class="hero-inner"><div><p class="eyebrow">${t.eyebrow}</p><h1>${t.title}</h1><div class="rule"><i></i></div><h2 class="subtitle">${t.subtitle}</h2><p class="intro">${t.intro}</p></div><div class="hero-details"><div class="chip teams-chip" aria-label="${t.format}. ${t.teamsNote}"><img class="teams-logo" src="${asset('microsoft-teams.png')}" alt=""><span>${t.format}<small>${t.teamsNote}</small></span></div><div class="chip"><b>□</b>${t.date}</div><div class="people"><div><p>${t.people}</p><a href="#speakers">${t.explore} ›</a></div><div class="avatars">${t.speakers.map(([image,name]) => `<a class="hex" href="#speakers" aria-label="${name}"><img src="${asset(image)}" alt=""></a>`).join('')}</div></div><div class="actions"><a class="button primary" href="#agenda">${t.see} ↓</a><a class="button secondary" href="#speakers">${t.meet} ›</a></div></div></div>`;
+  document.querySelector('.hero').innerHTML = `<div class="hero-inner"><div><p class="eyebrow">${t.eyebrow}</p><h1>${t.title}</h1><div class="rule"><i></i></div><h2 class="subtitle">${t.subtitle}</h2><p class="intro">${t.intro}</p></div><div class="hero-details"><a class="chip teams-chip" href="https://teams.microsoft.com/meet/282975379451187?p=IVO9yFWXoSnrKk8sTR*" target="_blank" rel="noreferrer" aria-label="${t.format}. ${t.teamsNote}"><img class="teams-logo" src="${asset('microsoft-teams.png')}" alt=""><span>${t.format}<small>${t.teamsNote}</small></span></a><div class="chip"><b>□</b>${t.date}</div><div class="people"><div><p>${t.people}</p><a href="#speakers">${t.explore} ›</a></div><div class="avatars">${t.speakers.map(([image,name]) => `<a class="hex" href="#speakers" aria-label="${name}"><img src="${asset(image)}" alt=""></a>`).join('')}</div></div><div class="actions"><a class="button primary" href="#agenda">${t.see} ↓</a><a class="button secondary" href="#speakers">${t.meet} ›</a></div></div></div>`;
   document.querySelector('.committee-section').innerHTML = `<div class="committee-inner"><p class="committee-heading">${t.committeeEyebrow}</p><div class="committee-grid">${committee(t.committee,t)}</div></div>`;
   document.querySelector('.format-section').innerHTML = `<div class="section-inner"><div class="section-head"><div><p class="eyebrow">Format</p><h2 class="section-title">${t.detailsTitle}</h2></div><p class="section-note">${t.detailsNote}</p></div><div class="details">${cards(t.details)}</div></div>`;
   document.querySelector('.agenda-section').innerHTML = `<div class="agenda-inner"><div class="agenda-header"><div><p class="eyebrow">${t.agendaEyebrow}</p><h2 class="section-title agenda-title">${t.agendaTitle}</h2></div><div class="process-image" aria-hidden="true"></div></div><div class="agenda-box"><div class="agenda-labels"><span>${t.time}</span><span>${t.session}</span></div>${t.schedule.map(([time,title,detail,kind]) => `<div class="agenda-item ${kind || ''}"><time>${agendaTime(time)}</time><div><h3>${title}</h3><p>${detail}</p></div></div>`).join('')}</div></div>`;

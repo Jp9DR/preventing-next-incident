@@ -7,10 +7,10 @@ BEGIN:VEVENT
 UID:preventing-next-incident-20260922@jp9dr.github.io
 DTSTAMP:20260903T120000Z
 DTSTART:20260922T173000Z
-DTEND:20260922T200000Z
+DTEND:20260922T202500Z
 SUMMARY:Preventing the Next Incident — Process Safety in Practice
-DESCRIPTION:Online mini-seminar via Microsoft Teams. The meeting link will be announced by the organizing team.
-LOCATION:Microsoft Teams (link to be announced)
+DESCRIPTION:Online mini-seminar via Microsoft Teams. Join at https://teams.microsoft.com/meet/282975379451187?p=IVO9yFWXoSnrKk8sTR*
+LOCATION:Microsoft Teams
 URL:https://jp9dr.github.io/preventing-next-incident/
 STATUS:CONFIRMED
 END:VEVENT
