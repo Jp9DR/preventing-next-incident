@@ -38,11 +38,11 @@ Object.assign(copy.en, {
   schedule: [
     ['1:30–1:40 p.m.', 'Welcome and opening remarks', 'Gustavo Ramírez & Carolina Ardila Suárez'],
     ['1:40–2:10 p.m.', 'Preventing process incidents: the role of functional safety', 'Davide Arnoldi · 20 min presentation + 10 min questions'],
-    ['2:10–2:40 p.m.', 'Operational safety management in critical-mineral operations', 'Prof. Jean-Paul Lacoursière · 20 min presentation + 10 min questions'],
+    ['2:10–2:40 p.m.', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques', 'Prof. Jean-Paul Lacoursière · 20 min presentation + 10 min questions'],
     ['2:40–2:50 p.m.', 'Break', 'Short pause', 'break'],
-    ['2:50–3:20 p.m.', 'To be defined', 'Mike Munsil · 20 min presentation + 10 min questions'],
+    ['2:50–3:20 p.m.', 'A Case Study in Human Failure', 'Mike Munsil · 20 min presentation + 10 min questions'],
     ['3:20–3:50 p.m.', 'Case studies in Latin America', 'David E. Herrick · 20 min presentation + 10 min questions'],
-    ['3:50–4:20 p.m.', 'What does process safety look like in your first years on the job?', 'Louisa A. Nara · 20 min presentation + 10 min questions'],
+    ['3:50–4:20 p.m.', 'Why Every Chemical Engineer Needs to Know About Process Safety', 'Louisa A. Nara · 20 min presentation + 10 min questions'],
     ['4:20–4:25 p.m.', 'Closing remarks', 'Organizing team']
   ],
   hosts: [
@@ -51,10 +51,10 @@ Object.assign(copy.en, {
   ],
   speakers: [
     ['davide-arnoldi.png', 'Davide Arnoldi', 'Principal Safety Consultant at HIMA with more than 20 years of experience in the process and energy industries. His work includes functional safety and safety-instrumented systems.', 'Preventing process incidents: the role of functional safety'],
-    ['jean-paul-lacoursiere.png', 'Prof. Jean-Paul Lacoursière', 'Associate Professor at Polytechnique Montréal with 45 years of experience in petrochemicals and major-risk management.', 'Operational safety management in critical-mineral operations'],
-    ['mike-munsil.png', 'Mike Munsil', 'Senior Project Manager (HSE) and Director for Latin America at PSRG. He brings more than 30 years of experience in training, process safety, and risk management.', 'To be defined'],
+    ['jean-paul-lacoursiere.png', 'Prof. Jean-Paul Lacoursière', 'Associate Professor at Polytechnique Montréal with 45 years of experience in petrochemicals and major-risk management.', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques'],
+    ['mike-munsil.png', 'Mike Munsil', 'Senior Project Manager (HSE) and Director for Latin America at PSRG. He brings more than 30 years of experience in training, process safety, and risk management.', 'A Case Study in Human Failure'],
     ['david-herrick.png', 'David E. Herrick, Ph.D.', 'A chemical engineer and CCPS staff consultant based in Bogotá, with more than 25 years of industry experience in process-safety management.', 'Case studies in Latin America'],
-    ['louisa-nara.png', 'Louisa A. Nara', 'Global process-safety leader with more than 40 years in engineering, risk management, and crisis response. Former Global Technical Director of AIChE’s CCPS (2010–2023).', 'What does process safety look like in your first years on the job?']
+    ['louisa-nara.png', 'Louisa A. Nara', 'Global process-safety leader with more than 40 years in engineering, risk management, and crisis response. Former Global Technical Director of AIChE’s CCPS (2010–2023).', 'Why Every Chemical Engineer Needs to Know About Process Safety']
   ]
 });
 
@@ -83,12 +83,12 @@ Object.assign(copy.fr, {
   fireMeta: 'La sécurité des procédés pour tous · UIS 🇨🇴 — UdS 🇨🇦',
   schedule: [
     ['13 h 30–13 h 40', 'Accueil et mots d’ouverture', 'Gustavo Ramírez et Carolina Ardila Suárez'],
-    ['13 h 40–14 h 10', 'Prévenir les incidents de procédé : le rôle de la sécurité fonctionnelle', 'Davide Arnoldi · 20 min de présentation + 10 min de questions'],
+    ['13 h 40–14 h 10', 'Preventing process incidents: the role of functional safety', 'Davide Arnoldi · 20 min de présentation + 10 min de questions'],
     ['14 h 10–14 h 40', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques', 'Prof. Jean-Paul Lacoursière · 20 min de présentation + 10 min de questions'],
     ['14 h 40–14 h 50', 'Pause', 'Courte pause', 'break'],
-    ['14 h 50–15 h 20', 'À déterminer', 'Mike Munsil · 20 min de présentation + 10 min de questions'],
-    ['15 h 20–15 h 50', 'Études de cas en Amérique latine', 'David E. Herrick · 20 min de présentation + 10 min de questions'],
-    ['15 h 50–16 h 20', 'À quoi ressemble la sécurité des procédés au début d’une carrière d’ingénieur?', 'Louisa A. Nara · 20 min de présentation + 10 min de questions'],
+    ['14 h 50–15 h 20', 'A Case Study in Human Failure', 'Mike Munsil · 20 min de présentation + 10 min de questions'],
+    ['15 h 20–15 h 50', 'Case studies in Latin America', 'David E. Herrick · 20 min de présentation + 10 min de questions'],
+    ['15 h 50–16 h 20', 'Why Every Chemical Engineer Needs to Know About Process Safety', 'Louisa A. Nara · 20 min de présentation + 10 min de questions'],
     ['16 h 20–16 h 25', 'Mot de clôture', 'Équipe organisatrice']
   ],
   hosts: [
@@ -96,11 +96,11 @@ Object.assign(copy.fr, {
     copy.fr.hosts[1]
   ],
   speakers: [
-    ['davide-arnoldi.png', 'Davide Arnoldi', 'Consultant principal chez HIMA, avec plus de 20 ans d’expérience dans les industries des procédés et de l’énergie. Il accompagne des clients en sécurité fonctionnelle et systèmes instrumentés de sécurité.', 'Prévenir les incidents de procédé : le rôle de la sécurité fonctionnelle'],
+    ['davide-arnoldi.png', 'Davide Arnoldi', 'Consultant principal chez HIMA, avec plus de 20 ans d’expérience dans les industries des procédés et de l’énergie. Il accompagne des clients en sécurité fonctionnelle et systèmes instrumentés de sécurité.', 'Preventing process incidents: the role of functional safety'],
     ['jean-paul-lacoursiere.png', 'Prof. Jean-Paul Lacoursière', 'Professeur associé à Polytechnique Montréal, avec 45 ans d’expérience en pétrochimie et gestion des risques majeurs.', 'Gestion de la sécurité opérationnelle dans l’exploitation des minéraux critiques'],
-    ['mike-munsil.png', 'Mike Munsil', 'Directeur pour l’Amérique latine et gestionnaire principal de projets HSE chez PSRG. Il possède plus de 30 ans d’expérience en formation, sécurité des procédés et gestion des risques.', 'À déterminer'],
-    ['david-herrick.png', 'David E. Herrick, Ph. D.', 'Ingénieur chimiste et consultant du CCPS basé à Bogotá, avec plus de 25 ans d’expérience en gestion de la sécurité des procédés.', 'Études de cas en Amérique latine'],
-    ['louisa-nara.png', 'Louisa A. Nara', 'Leader mondiale en sécurité des procédés, avec plus de 40 ans d’expérience en génie, gestion des risques et intervention de crise. Ancienne directrice technique mondiale du CCPS de l’AIChE (2010–2023).', 'À quoi ressemble la sécurité des procédés au début d’une carrière d’ingénieur?']
+    ['mike-munsil.png', 'Mike Munsil', 'Directeur pour l’Amérique latine et gestionnaire principal de projets HSE chez PSRG. Il possède plus de 30 ans d’expérience en formation, sécurité des procédés et gestion des risques.', 'A Case Study in Human Failure'],
+    ['david-herrick.png', 'David E. Herrick, Ph. D.', 'Ingénieur chimiste et consultant du CCPS basé à Bogotá, avec plus de 25 ans d’expérience en gestion de la sécurité des procédés.', 'Case studies in Latin America'],
+    ['louisa-nara.png', 'Louisa A. Nara', 'Leader mondiale en sécurité des procédés, avec plus de 40 ans d’expérience en génie, gestion des risques et intervention de crise. Ancienne directrice technique mondiale du CCPS de l’AIChE (2010–2023).', 'Why Every Chemical Engineer Needs to Know About Process Safety']
   ]
 });
 
